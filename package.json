@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-iospreferences",
+  "version": "1.0.0",
+  "description": "Cordova plugin to read and store iOS application preferences",
+  "cordova": {
+    "id": "cordova-plugin-iospreferences",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirtenfelder/cordova-plugin-iospreferences.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Raphael Hirtenfelder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hirtenfelder/cordova-plugin-iospreferences/issues"
+  },
+  "homepage": "https://github.com/hirtenfelder/cordova-plugin-iospreferences#readme"
+}

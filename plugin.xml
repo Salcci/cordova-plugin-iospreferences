@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    id="com.phonegap.plugins.applicationpreferences"
-    version="1.0.0">
-
-    <name>applicationPreferences</name>
-
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-iospreferences" version="1.0.0">
+    <name>cordova-plugin-iospreferences</name>
+    <description>Cordova plugin to read and store iOS application preferences</description>
+    <license>MIT</license>
+    <keywords>cordova,ios,preferences</keywords>
+    <repo>https://github.com/hirtenfelder/cordova-plugin-iospreferences.git</repo>
+    <issue>https://github.com/hirtenfelder/cordova-plugin-iospreferences/issues</issue>
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
-
     <!-- ios -->
     <platform name="ios">
         <js-module src="www/applicationPreferences.js" name="applicationPreferences">
             <clobbers target="applicationPreferences" />
         </js-module>
-
         <config-file target="config.xml" parent="/*">
             <feature name="applicationPreferences">
                 <param name="ios-package" value="applicationPreferences" />
             </feature>
-        </config-file>
-
+        </config-file>       
         <!-- Note: the ios src is based off src/ios implicitly -->
         <header-file src="src/ios/applicationPreferences.h" />
         <source-file src="src/ios/applicationPreferences.m" />

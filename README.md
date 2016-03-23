@@ -1,4 +1,4 @@
-# Application Preference plugin for Cordova iOS #
+# Application Preferences plugin for Cordova iOS #
 
 Use this Cordova plugin to read and store iOS application preferences.
 
@@ -7,7 +7,7 @@ Use this Cordova plugin to read and store iOS application preferences.
 Once you're familiar with that process, you may install this plugin with the [Cordova CLI](https://cordova.apache.org/docs/en/6.x/guide/cli/index.html):
 
 ```
-cordova plugin add https://github.com/hirtenfelder/cordova-ios-application-preferences.git
+cordova plugin add https://github.com/hirtenfelder/cordova-plugin-iospreferences.git
 ```
 
 ## Using the plugin
